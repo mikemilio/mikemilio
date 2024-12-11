@@ -1,0 +1,13 @@
+:root {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+body {
+  background-color: burlywood;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
