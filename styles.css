@@ -43,7 +43,7 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
-  /* margin-top: 35px; */
+  margin-bottom: 15px;
 }
 
 .platform-name a {
@@ -60,11 +60,13 @@ h1 {
 .subcategory {
   font-size: 20px;
   margin-left: 15px;
-  margin-top: 15px;
+  /* margin-top: px; */
 }
 
 .certificates-list {
   font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .certificates-list li {
