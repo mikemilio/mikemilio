@@ -101,11 +101,12 @@ h1 {
 
 .project-image-wrapper, .project-image-wrapper:hover {
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .project-image-wrapper a {
   display: block;
-  width: 400px;
+  width: 350px;
   height: 400px;
   background-color: #303841;
   text-decoration: none;
