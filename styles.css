@@ -3,6 +3,7 @@
   font-size: 10px;
   margin: 0;
   color: whitesmoke;
+  font-size: 10px;
 }
 
 body {
@@ -21,12 +22,10 @@ h1 {
   padding: 25px;
 }
 
-#wrapper {
+#wrapper-courses-list {
   max-width: 900px;
   margin: 0 auto;
-  padding-left: 30px;
-  /* border: 1px solid black; */
-  padding-bottom: 40px;
+  padding: 0 30px 40px 30px;
 }
 
 .platform-wrapper {
@@ -83,4 +82,45 @@ h1 {
 .certificates-list li a:hover {
   color: #e27886;
   /* font-weight: bold; */
+}
+
+#wrapper-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 30px 40px 30px;
+}
+
+.project-image-wrapper {
+  border: 5px solid #414347;
+}
+
+.project-image-wrapper:hover {
+  border: 5px solid #BE3144;
+}
+
+.project-image-wrapper, .project-image-wrapper:hover {
+  margin-bottom: 30px;
+}
+
+.project-image-wrapper a {
+  display: block;
+  width: 400px;
+  height: 400px;
+  background-color: #303841;
+  text-decoration: none;
+  
+}
+
+img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.project-title {
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
 }
