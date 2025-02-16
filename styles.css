@@ -125,3 +125,9 @@ img {
   text-align: center;
   margin-top: 25px;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
